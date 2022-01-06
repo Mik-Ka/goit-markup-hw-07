@@ -27,7 +27,7 @@
   z-index: 2;
 }
 
-.modal-title {
+.modal__title {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -39,11 +39,11 @@
   /* margin-top: 40px; */
 }
 
-.modal-input {
+.modal__input {
   margin-bottom: 10px;
 }
 
-.modal-input-text {
+.modal__lable {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -138,7 +138,7 @@
   outline: none;
 }
 
-.modal-close {
+.modal-close__btn {
   width: 30px;
   height: 30px;
   background: #ffffff;
@@ -152,7 +152,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  &:hover .modal-close-icon {
+  &:hover .modal-close__icon {
     fill: #2196f3;
     cursor: pointer;
   }

@@ -37,11 +37,11 @@
   text-decoration: none;
 }
 
-.header-item:not(:last-child) {
+.site-nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-nav-link {
+.site-nav__link {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;

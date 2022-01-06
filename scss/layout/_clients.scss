@@ -1,4 +1,4 @@
-.section-five {
+.clients {
   background: #ffffff;
   display: flex;
   flex-direction: column;
@@ -6,7 +6,7 @@
   height: 375px;
 }
 
-.section-five-title {
+.clients__title {
   font-family: Roboto;
   font-weight: 700;
   font-size: 36px;
@@ -17,14 +17,14 @@
   margin-bottom: 50px;
 }
 
-.section-five-list {
+.clients__list {
   display: flex;
   justify-content: space-between;
   width: 1170px;
   margin: 0 auto;
 }
 
-.section-five-item {
+.clients__item {
   width: 100%;
   height: 100%;
   display: flex;
@@ -37,14 +37,14 @@
   }
 }
 
-.clients-icon {
+.clients__icon {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
   transition: 250ms linear;
 }
 
-.clients-icon-link {
+.clients__link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -57,7 +57,7 @@
   }
   &:hover,
   &:focus {
-    .clients-icon {
+    .clients__icon {
       fill: var(--accent-color);
     }
   }

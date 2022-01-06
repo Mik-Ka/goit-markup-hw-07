@@ -1,15 +1,18 @@
 @import './utils/variables';
-@import './base/reset';
-@import './components/container';
-@import './base/common';
 @import './utils/hidden';
+
+@import './base/reset';
+@import './base/common';
+
+@import './components/container';
+@import './components/modal';
+
 @import './layout/header';
 @import './layout/hero';
-@import './layout/underhero';
-@import './layout/section_three';
+@import './layout/benefits';
+@import './layout/work';
 @import './layout/team';
 @import './layout/clients';
 @import './layout/footer';
-@import './components/modal';
 @import './layout/portfolio-btns';
 @import './layout/projects';

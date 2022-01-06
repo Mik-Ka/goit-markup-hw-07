@@ -1,10 +1,10 @@
-.section-three {
+.work {
   display: flex;
   flex-direction: column;
   padding-top: 0;
 }
 
-.section-three-title {
+.work__title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -14,21 +14,21 @@
   color: var(--header-text-color);
   margin-bottom: 50px;
 }
-.section-three-list {
+.work__list {
   display: flex;
   justify-content: space-between;
 }
 
-.section-three-item {
+.work__item {
   position: relative;
   display: block;
 }
 
-.section-three-thumb {
+.work__thumb {
   z-index: -1;
 }
 
-.section-three-text {
+.work__text {
   position: absolute;
   font-style: normal;
   font-weight: 700;

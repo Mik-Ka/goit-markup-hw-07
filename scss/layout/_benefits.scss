@@ -1,13 +1,13 @@
-.section-two {
+.benefits {
   display: flex;
   /* margin: 94px auto; */
 }
 
-.section-two-list {
+.benefits__list {
   display: flex;
 }
 
-.section-two-item {
+.benefits__item {
   width: 270px;
   min-height: 251px;
   &:not(:last-child) {
@@ -15,7 +15,7 @@
   }
 }
 
-.section-two-thumb {
+.benefits__thumb {
   width: 270px;
   height: 120px;
   display: flex;
@@ -26,7 +26,7 @@
   border-radius: 4px;
 }
 
-.section-two-title {
+.benefits__title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -37,7 +37,7 @@
   margin-bottom: 10px;
 }
 
-.section-two-text {
+.benefits__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
